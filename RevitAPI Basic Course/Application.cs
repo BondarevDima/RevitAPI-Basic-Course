@@ -13,7 +13,7 @@ namespace RevitAPI_Basic_Course
             string assemblyLocation = Assembly.GetExecutingAssembly().Location,
                    iconsDirectoryPath = Path.GetDirectoryName(assemblyLocation) + @"\icons\";
 
-            string tabName = "Базовый курс";
+            string tabName = "Мой базовый курс";
 
             application.CreateRibbonTab(tabName);
 
